@@ -32,7 +32,7 @@ function App() {
                         onClick={()=>{  setEvtId(1);  navigate('/event/'+1);  }}/>
                     </li>
                     <li className="evt2">
-                      <img src={`${import.meta.env.BASE_URL}images/event2.jpg`} alt="" 
+                      <img src="/images/event2.jpg" alt="" 
                         onClick={()=>{  setEvtId(2);  navigate('/event/'+2);  }}/>
                     </li>
                     <li className="evt3">
